@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_ecr_repository" "hello-app" {
-  name                 = "hello-app"
+  name                 = "my-app"
   image_tag_mutability = "IMMUTABLE"
 
   image_scanning_configuration {
